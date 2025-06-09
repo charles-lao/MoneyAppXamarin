@@ -61,23 +61,27 @@
 				android:layout_height="wrap_content">
 			
 				<ImageView
+					android:tint="@color/colorOrange"
 					android:src="@drawable/star"
 					android:layout_width="15dp"
 					android:layout_height="15dp"/>
 				 
 				<ImageView
+					android:tint="@color/colorOrange"
 					android:layout_marginLeft="5dp"
 					android:src="@drawable/star"
 					android:layout_width="15dp"
 					android:layout_height="15dp"/>
 				
 				<ImageView
+					android:tint="@color/colorOrange"
 					android:layout_marginLeft="5dp"
 					android:src="@drawable/star"
 					android:layout_width="15dp"
 					android:layout_height="15dp"/>
 	
 				<ImageView
+					android:tint="@color/colorOrange"
 					android:layout_marginLeft="5dp"
 					android:src="@drawable/star"
 					android:layout_width="15dp"
