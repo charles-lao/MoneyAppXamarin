@@ -114,7 +114,7 @@
 		<TextView
 			android:id="@+id/balanceTextView"
 			android:text="$32,405.00"
-			android:textSize="3sp"
+			android:textSize="32sp"
 			android:textStyle="bold"
 			android:layout_centerInParent="true"
 			android:gravity="center"
@@ -128,4 +128,168 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"/>
 	</RelativeLayout>
+
+	<!-- Section Three -->
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.5">
+		
+		<RelativeLayout
+			android:background="@drawable/roundededges"
+			android:padding="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="60dp">
+			
+			<de.hdodenhof.circleimageview.CircleImageView
+				android:id="@+id/friendImageView"
+				android:layout_centerVertical="true"
+				android:src="@drawable/personal1"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+			
+			<TextView
+				android:id="@+id/descriptionTextView"
+				android:layout_toRightOf="@+id/friendImageView"
+				android:layout_marginLeft="10dp"
+				android:textStyle="bold"
+				android:text="Transfer to Julia"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+			
+			<TextView
+				android:id="@+id/transferDateTextView"
+				android:layout_marginLeft="10dp"
+				android:layout_below="@+id/descriptionTextView"
+				android:layout_toRightOf="@+id/friendImageView"
+				android:text="22-May-2001"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+			
+			<TextView
+				android:id="@+id/amountTextView"
+				android:layout_alignParentRight="true"
+				android:textColor="@color/colorRed"
+				android:text="$7200.00"
+				android:textSize="13sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+			
+			<TextView
+				android:text="View"
+				android:textSize="12sp"
+				android:layout_marginTop="2dp"
+				android:layout_below="@+id/amountTextView"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+		</RelativeLayout>
+
+
+		<RelativeLayout
+			android:background="@drawable/roundededges"
+			android:padding="10dp"
+			android:layout_marginTop="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="60dp">
+
+			<de.hdodenhof.circleimageview.CircleImageView
+				android:id="@+id/friendImageView"
+				android:layout_centerVertical="true"
+				android:src="@drawable/profile1"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<TextView
+				android:id="@+id/descriptionTextView"
+				android:layout_toRightOf="@+id/friendImageView"
+				android:layout_marginLeft="10dp"
+				android:textStyle="bold"
+				android:text="Deposit from Kaycee"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<TextView
+				android:id="@+id/transferDateTextView"
+				android:layout_marginLeft="10dp"
+				android:layout_below="@+id/descriptionTextView"
+				android:layout_toRightOf="@+id/friendImageView"
+				android:text="24-June-2001"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<TextView
+				android:id="@+id/amountTextView"
+				android:layout_alignParentRight="true"
+				android:textColor="@color/colorGreen"
+				android:text="$4100.00"
+				android:textSize="13sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<TextView
+				android:text="View"
+				android:textSize="12sp"
+				android:layout_marginTop="2dp"
+				android:layout_below="@+id/amountTextView"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+		</RelativeLayout>
+
+
+		<RelativeLayout
+			android:background="@drawable/roundededges"
+			android:padding="10dp"
+			android:layout_marginTop="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="60dp">
+
+			<de.hdodenhof.circleimageview.CircleImageView
+				android:id="@+id/friendImageView"
+				android:layout_centerVertical="true"
+				android:src="@drawable/personal"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<TextView
+				android:id="@+id/descriptionTextView"
+				android:layout_toRightOf="@+id/friendImageView"
+				android:layout_marginLeft="10dp"
+				android:textStyle="bold"
+				android:text="Deposit from Peter"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<TextView
+				android:id="@+id/transferDateTextView"
+				android:layout_marginLeft="10dp"
+				android:layout_below="@+id/descriptionTextView"
+				android:layout_toRightOf="@+id/friendImageView"
+				android:text="27-June-2001"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<TextView
+				android:id="@+id/amountTextView"
+				android:layout_alignParentRight="true"
+				android:textColor="@color/colorGreen"
+				android:text="$7200.00"
+				android:textSize="13sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<TextView
+				android:text="View"
+				android:textSize="12sp"
+				android:layout_marginTop="2dp"
+				android:layout_below="@+id/amountTextView"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+		</RelativeLayout>
+		
+		
+	</LinearLayout>
 </LinearLayout>
