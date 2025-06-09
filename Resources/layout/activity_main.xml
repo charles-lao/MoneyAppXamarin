@@ -301,6 +301,9 @@
 				
 				<Button
 					android:background="@drawable/roundedButton"
+					android:drawableLeft="@drawable/history"
+					android:paddingRight="16dp"
+					android:paddingLeft="16dp"
 					android:text="View History"
 					android:textAllCaps="false"
 					android:layout_weight="0.5"
